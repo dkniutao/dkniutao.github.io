@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-21T09:29:21.245Z</updated>
+  <updated>2016-11-25T03:18:17.196Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/11/21/di-yi-pian/"/>
     <id>http://yoursite.com/2016/11/21/di-yi-pian/</id>
     <published>2016-11-21T08:43:22.000Z</published>
-    <updated>2016-11-21T09:29:21.245Z</updated>
+    <updated>2016-11-25T03:18:17.196Z</updated>
     
     <content type="html"><![CDATA[<p></p><h1> 程序员的准则</h1><br>     <p> 技术是通向解决方案的桥梁，但是技术不是解决方案</p><br>我们可以被最新的技术所吸引，例如angularjs的依赖注入，例如最炫酷的编程语言，例如最炫酷的操作系统。但是他们都不是解决问题的具体方案，他们只不过是我们手中帮助解决问题的简单工具。<p></p>
 <p>我们要小心，不要被人引入语言圣战，也不要轻易地就说“PHP是最好的语言”，他们只不过是解决问题的工具而已。</p>
@@ -73,6 +73,8 @@
     
     </summary>
     
+    
+      <category term="-文章 -正能量" scheme="http://yoursite.com/tags/%E6%96%87%E7%AB%A0-%E6%AD%A3%E8%83%BD%E9%87%8F/"/>
     
   </entry>
   
