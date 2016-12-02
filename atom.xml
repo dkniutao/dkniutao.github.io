@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-12-01T14:30:39.083Z</updated>
+  <updated>2016-12-02T17:02:11.955Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo 搭建中的坑</title>
+    <link href="http://yoursite.com/2016/12/03/wenzhnag/"/>
+    <id>http://yoursite.com/2016/12/03/wenzhnag/</id>
+    <published>2016-12-02T16:50:09.000Z</published>
+    <updated>2016-12-02T17:02:11.955Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://www.jianshu.com/p/15ae47eddc56" title="Windows下搭建个人博客" target="_blank" rel="external">http://www.jianshu.com/p/15ae47eddc56</a><br>相对完整的博客搭建教程</p>
+<p>下面是我在搭建博客的时候遇到的一些坑，给大家分享下</p>
+<hr>
+<p><img src="/img/blogs/file.png"></p>
+<h3 id="配置博客框架的具体内容"><a href="#配置博客框架的具体内容" class="headerlink" title="配置博客框架的具体内容"></a>配置博客框架的具体内容</h3><p><img src="/img/blogs/title.png"></p>
+<p><img src="/img/blogs/theme.png"></p>
+<h3 id="主题配置以yilia为例"><a href="#主题配置以yilia为例" class="headerlink" title="主题配置以yilia为例"></a>主题配置以yilia为例</h3><p><img src="/img/blogs/yilia1.png"></p>
+<p><img src="/img/blogs/yilia2.png"></p>
+<p><img src="/img/blogs/yilia3.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/15ae47eddc56&quot; title=&quot;Windows下搭建个人博客&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/15ae47eddc
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>闭包</title>
@@ -99,8 +126,8 @@ f();
   
   <entry>
     <title>没那么难，往前看 </title>
-    <link href="http://yoursite.com/2016/11/21/rule/"/>
-    <id>http://yoursite.com/2016/11/21/rule/</id>
+    <link href="http://yoursite.com/2016/11/21/game/"/>
+    <id>http://yoursite.com/2016/11/21/game/</id>
     <published>2016-11-21T08:43:22.000Z</published>
     <updated>2016-11-26T08:01:38.723Z</updated>
     
