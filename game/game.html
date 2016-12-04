@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>game</title>
+	<style>
+		p{
+			font-size: 20px;
+		}
+		span{
+			padding-left: 50px;
+			display: none
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<p>白萝卜喝醉了，会变成什么?</p>
+		<input  type="button" value="答案">
+		<span >红萝卜</span>
+
+		<p>有一个鸡蛋去茶馆喝茶,后来怎么样了?</p>
+		<input  type="button" value="答案">
+		<span >结果它变成了茶叶蛋</span>
+
+		<p>一只小狗在沙漠中旅行,结果死了,他是怎么死的?</p>
+		<input  type="button" value="答案">
+		<span >他是憋死的,因为沙漠里没有电线杆尿尿</span>
+
+		<p>牙医靠什么吃饭?</p>
+		<input  type="button" value="答案">
+		<span >嘴巴</span>
+
+		<p>土豆捅了包子致命一刀,怎样了? ?</p>
+		<input  type="button" value="答案">
+		<span >变成豆沙(杀)包了</span>
+
+		<p>三个金叫鑫，三个水叫淼，三个人叫众，那么三个鬼应该叫什么??</p>
+		<input  type="button" value="答案">
+		<span >叫救命</span>
+
+		<p>有什么事比亲眼看着好朋友上电椅更痛苦? </p>
+		<input  type="button" value="答案">
+		<span >他临死还握着你的手</span>
+
+		<p>老鼠对野马说：“我昨天和猫约会呢！”（打一食品）?</p>
+		<input  type="button" value="答案">
+		<span >署片（鼠骗）</span>
+
+		<p>野马不信，把老鼠拎了起来。（打一蔬菜）?</p>
+		<input  type="button" value="答案">
+		<span >马铃薯（马拎鼠）</span>
+
+		<p>在一间房子里,有油灯,暖炉及壁炉.现在你特别冷，可是你只有一根火柴.请问首先应该点哪一样??</p>
+		<input  type="button" value="答案">
+		<span >火柴</span>
+	</div>
+</body>
+	<script type="text/javascript">
+	function main(){
+		var oDiv = document.getElementById("box")
+		var oBtn = oDiv.getElementsByTagName("input")
+		var oAnswer = oDiv.getElementsByTagName("span")
+
+		// for (var i = 0; i < oBtn.length; i++) { 方法1. 将变量 i 保存给在每个段落对象（p）上
+		// 		oBtn[i].i = i;
+		// 		oBtn[i].onclick = function(){
+		// 			alert(this.i)
+		// 		}
+		// 	}
+		 for (var i = 0; i < oBtn.length; i++) {  //方法2.加一层闭包，i以函数参数形式传递给内层函数
+		 	( function(arg){
+
+					oBtn[i].onclick = function(){					
+						oAnswer[arg].style.display = "inline-block"
+					}
+		 		})(i)
+		 	}
+		}main()
+	</script>
+</html>
